@@ -277,6 +277,36 @@ config BR2_GNU_MIRROR
 	     http://ftp.gnu.org/pub/gnu
 	     http://mirror.aarnet.edu.au/pub/gnu
 
+config BR2_TSINGHUA_MIRROR
+	string "Tsinghua Tuna Software mirror"
+	default "http://mirrors.tuna.tsinghua.edu.cn/gnu"
+	help
+	  GNU has multiple software mirrors scattered around the
+	  world. The following allows you to select your preferred
+	  mirror. By default, a generic address is used, which
+	  automatically selects an up-to-date and local mirror.
+
+	  Have a look on the gnu.org site for a list of mirrors, then
+	  enter the URL to the base directory. Examples:
+
+	     http://ftp.gnu.org/pub/gnu
+	     http://mirror.aarnet.edu.au/pub/gnu
+
+config BR2_HUAWEI_MIRROR
+	string "Huawei Software mirror"
+	default "https://repo.huaweicloud.com/gnu"
+	help
+	  GNU has multiple software mirrors scattered around the
+	  world. The following allows you to select your preferred
+	  mirror. By default, a generic address is used, which
+	  automatically selects an up-to-date and local mirror.
+
+	  Have a look on the gnu.org site for a list of mirrors, then
+	  enter the URL to the base directory. Examples:
+
+	     http://ftp.gnu.org/pub/gnu
+	     http://mirror.aarnet.edu.au/pub/gnu
+
 config BR2_LUAROCKS_MIRROR
 	string "LuaRocks mirror"
 	default "http://rocks.moonscript.org"
